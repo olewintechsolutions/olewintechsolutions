@@ -1,0 +1,639 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <title>OlewinTechSolutions</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- add icon link -->
+    <link rel="icon" href="./images/mahesh logo.png" type="image/x-icon" />
+
+    <!-- Google Fonts/ Poppins -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="./style.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="  https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/bootstrap-icons.svg
+    "
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"
+          ><img
+            src="./images/mahesh logo.png"
+            alt="OlewinTechSolutions"
+            class="img-fluid"
+            width="150px"
+            height="75px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto p-lg-3 gap-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#project"
+                ><span class="border-bottom">Projects</span>
+                <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li><a href="#">E-commerce Applications </a></li>
+                <li><a href="#">Matrimony Applications </a></li>
+                <li><a href="#">Finance Application</a></li>
+                <li><a href="#">Medical Application</a></li>
+                <li><a href="#">Mobile Apps</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./services.html"
+                ><span class="border-bottom">Services</span>
+                <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li><a href="#">Web Designing</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Software Applications</a></li>
+                <li><a href="#">GUI Applications</a></li>
+                <li><a href="#">Android Apps </a></li>
+                <li><a href="#">IOS Apps</a></li>
+                <li class="dropdown">
+                  <a href="#"
+                    ><span>Other Services</span>
+                    <i class="bi bi-chevron-right"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">UI/UX Design</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Cloud Based Services</a></li>
+                    <li><a href="#">Web Application Service</a></li>
+                    <li><a href="#">Mobile App Service</a></li>
+                    <li><a href="#">Product Management</a></li>
+                    <li><a href="#">Graphic Designing</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About us</a>
+            </li>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#team"
+              ><span >Team</span>
+            </a>
+           
+          </li>
+          <li class="dropdown">
+            <a href="#"
+              ><span>My Account</span>
+              <i class="bi bi-chevron-right"></i
+            ></a>
+            <ul>
+              <li><a href="#">Create Account</a></li>
+              <li><a href="#">My Project</a></li>
+              <li><a href="#">DashBoard</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Business Modal</a></li>
+              <li><a href="#">Payments</a></li>
+              <li><a href="./userfrom_det.html">Request </a></li>
+              <li><a href="#">LogOut</a></li>
+             
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./signup.html">Sign Up</a>
+          </li>
+        </ul>
+      </li>
+     
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section start here -->
+    <div class="main-conatiner">
+      <section class="slider_section">
+        <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div className="carousel-item active bg-info-subtle">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <h2 class="fw-bold">
+                        Olewintechsolutions Leading the Wave of Technological
+                        Evolution &amp; Impeccable Solutions.
+
+                        <br />
+                      </h2>
+                      <p>
+                        Empowering Innovation, Integrate with
+                        Olewintechsolutions - Your Partner in Technological
+                        Evolution.
+                      </p>
+                      <div class="btn-box">
+                        <a href="./userfrom_det.html" class="btn1"> Request </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src="./images/mahesh logo.png" alt="Besta Sangam" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+       <!-- service section-->
+
+       <section class="service-grid pb-5 pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12 text-center mb-4">
+              <div class="service-title">
+                <h3>Who we are , What kind of Problems are Solved</h3>
+              </div>
+            </div>
+          </div>
+          <br />
+          <!-- ======= list of services added section ====-->
+          <div class="row">
+            <!--   web application -->
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                <div class="service-icon">
+                  <i class="bx bx-desktop"></i>
+                </div>
+                <h4>UI/UX Designs</h4>
+                <!--<a href="#">Read More</a>-->
+              </div>
+            </div>
+            <!--   web designing  -->
+  
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                <div class="service-icon">
+                  <i class="bx bx-devices"></i>
+                </div>
+                <h4>Web Applications</h4>
+                <!--<a href="#">Read More</a>-->
+              </div>
+            </div>
+            <!--   android  application -->
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                <div class="service-icon">
+                  <i class="bx bxl-android"></i>
+                </div>
+                <h4>Android Application</h4>
+                <!--<a href="#">Read More</a>-->
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                <div class="service-icon">
+                  <i class="bx bxl-apple"></i>
+                </div>
+                <h4>IOS Application</h4>
+                <!--<a href="#">Read More</a>-->
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                <div class="service-icon">
+                  <i class="bx bx-pie-chart-alt"></i>
+                </div>
+                <h4>Highly Scalable</h4>
+                <!--<a href="#">Read More</a>-->
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                <div class="service-icon">
+                  <i class="bx bx-expand-horizontal"></i>
+                </div>
+                <h4>Customizable & Responsive design</h4>
+                <!--<a href="#">Read More</a>-->
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                <div class="service-icon">
+                  <i class="bx bx-cloud"></i>
+                </div>
+                <h4>Domain Services & Hosting</h4>
+                <!--<a href="#">Read More</a>-->
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                <div class="service-icon">
+                  <i class="bx bxs-tachometer"></i>
+                </div>
+                <h4>Optimised for Speed & Efficient</h4>
+                <!--<a href="#">Read More</a>-->
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                <div class="service-icon">
+                  <i class="bx bx-envelope-open"></i>
+                </div>
+                <h4>Dedicated support for Clients Satisfaction</h4>
+                <!--<a href="#">Read More</a>-->
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                <div class="service-icon">
+                  <i class="bx bx-phone-call"></i>
+                </div>
+                <h4>Support 24/7</h4>
+                <!--<a href="#">Read More</a>-->
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                <div class="service-icon">
+                  <i class="bx bx-support"></i>
+                </div>
+                <h4>100% Clients & Customers Support</h4>
+                <!--<a href="#">Read More</a>-->
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                <div class="service-icon">
+                  <i class="bx bx-money-withdraw"></i>
+                </div>
+                <h4>Pay as you Use</h4>
+                <!--<a href="#">Read More</a>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- projects section -->
+
+    <section id="project" class="clients section-bg">
+      <div class="container">
+        <div class="row" data-aos="zoom-in">
+          <h1 class="text-center">
+            Our Projects
+          </h1>
+<hr>
+<hr>
+          <div
+            class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/olewintechsolutions-cdfe3.appspot.com/o/olewinimages%2Fprojectimages%2Fbesta.png?alt=media&token=b89e7157-c5d6-4549-b220-a1472184acaf"
+              class="img-fluid"
+              alt="Besta Sangam App"
+            />
+            
+          </div>
+
+          <div
+            class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/olewintechsolutions-cdfe3.appspot.com/o/olewinimages%2Fprojectimages%2Folewin1.svg?alt=media&token=0ab04dd2-e0ac-49a0-b45b-2ce76db69009"
+              class="img-fluid"
+              alt="Olewin App"
+            />
+          </div>
+
+          <div
+            class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/olewintechsolutions-cdfe3.appspot.com/o/olewinimages%2Fprojectimages%2Flamasalaround.png.jpeg?alt=media&token=83e07dc5-0b10-4265-87b7-9d7ebb99871a"
+              class="img-fluid"
+              alt="La-Masala"
+            />
+          </div>
+
+          <div
+            class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/olewintechsolutions-cdfe3.appspot.com/o/olewinimages%2Fprojectimages%2FAppIcon_geology.png?alt=media&token=0fc1c38d-9091-40ef-b5a0-4df45c9fec21"
+              class="img-fluid"
+              alt="Book Application"
+            />
+          </div>
+
+          <div
+            class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/olewintechsolutions-cdfe3.appspot.com/o/olewinimages%2Fprojectimages%2Ffinal%20logo2.svg?alt=media&token=06f7cf32-49f2-4652-a66f-3ca49f031ef7"
+              class="img-fluid"
+              alt="Olewin OlewinTechSolutions"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <hr>
+
+ 
+<!-- hexa container-->
+
+<section class="hex-ccontainer text-center mx-auto">
+  <h2 class=" fw-bold text-center "> What we offer  </h2> <hr>
+  <div class="container text-center">
+ 
+    <div class="row justify-content-center gap-3">
+      <div class="col-4">One of two columns</div>
+      <div class="col-4">One of two columns</div>
+    </div>
+
+    <div class="row justify-content-center gap-3">
+      <div class="col-4">One of two columns</div>
+      <div class="col-4">One of two columns</div>
+      <div class="col-4">One of two columns</div>
+      <div class="col-4">One of two columns</div>
+      <div class="col-4">One of two columns</div>
+    </div>
+    <div class="row justify-content-center gap-3">
+      <div class="col-4">One of two columns</div>
+      <div class="col-4">One of two columns</div>
+      <div class="col-4">One of two columns</div>
+    </div>
+    <div class="row justify-content-center gap-3">
+      <div class="col-4">One of two columns</div>
+      <div class="col-4">One of two columns</div>
+    </div>
+  </div>
+</section>
+<br>
+<hr>
+    
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2 class="text-center fw-bold">My Team</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="100">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="https://firebasestorage.googleapis.com/v0/b/olewintechsolutions-cdfe3.appspot.com/o/mahesh1.png?alt=media&token=65422798-604f-476b-88b9-160de533fa4f" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Bandaru Mahesh</h4>
+                <p><strong>IIT Kharagpur</strong></p>
+                <span>Full Stack Developer/Engineer</span>
+                <p><strong>Founder/CEO</strong></p>
+                <span>OlewinTechSolutions</span>
+                <div class="social">
+                  <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"> <i class="ri-google-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i></a>
+                </div>
+                <li class="text-decoration-none"><a class="btn btn-dark rounded-pill text-center fw-bold "
+                    href="https://bandarumahesh-1996.web.app">My Portfolio</a>
+                </li>
+              </div>
+            </div>
+          </div>
+<!-- 
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="https://firebasestorage.googleapis.com/v0/b/olewintechsolutions-cdfe3.appspot.com/o/Cropped_Image-removebg-preview.png?alt=media&token=0c280a5a-67b7-45cc-89a3-08d80e2c77bc" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Manjusha.M</h4>
+                <p><strong>Software Developer</strong></p>
+                <p><strong>IIT Kharagpur</strong></p>
+                <p><b>SDE-II </b></p>
+                <div class="social">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        -->
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="https://firebasestorage.googleapis.com/v0/b/olewintechsolutions-cdfe3.appspot.com/o/olewinimages%2Fourteammembers%2Fprem.JPG?alt=media&token=79856acd-48d9-4ae9-be7e-95b295f0a87e" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Prem Sai </h4>
+                
+                <span>Business Development Associate </span>
+                <span> Digital Marketing Consultant</span>
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="https://firebasestorage.googleapis.com/v0/b/olewintechsolutions-cdfe3.appspot.com/o/olewinimages%2Fourteammembers%2Fsubash.jpg?alt=media&token=500d7402-e136-4c5b-bfc6-a69ebe62e38e" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>M.Subash</h4>
+                <span>Data Architect</span>
+                <span>DataBase Analyst</span>
+             
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Team Section -->
+<hr>
+
+    <section id="about" class="py-5">
+      <div class="container text-center" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="fw-bold mb-4">Contact Us</h2><hr>
+            <div class="address fw-bold">
+              <i class="bx bx-current-location text-primary fs-2"></i>
+              <h4>Location:</h4>
+              <p>2P9G+GV8/301<br></p>
+              <p>Skyrah lake Towers<br></p>
+              <p>Bangalore - 560049<br></p>
+              <p>Karnataka - India</p>
+
+            </div>
+            <div class="email">
+              <i class="bx bx-envelope-open text-primary fs-2"></i>
+              <h4>Email:</h4>
+              <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><p>olewintechsolutions@gmail.com</p></a>
+              
+            </div>
+
+            <div class="phone fw-bold">
+              <i class="bx bx-phone-call text-primary fs-2"></i>
+              <h4>Contact No:-</h4>
+              <p class="text-primary">+91 8639449423</p>
+            </div> 
+            <hr> 
+          </div>
+          <div class="col-lg-6">
+            <h2 class="fw-bold text-center">Address </h2><hr>
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=skyrah lake view&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Address</a>
+              </div>
+              <style>.mapouter{
+                position:relative;
+                text-align:right;width:100%;height:400px;
+                }.gmap_canvas {
+                  overflow:hidden;
+                  background:none!important;
+                  width:100%;height:400px;
+                  }.gmap_iframe {
+                    height:400px!important;}
+                </style>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+
+ <!-- ======= Footer ======= -->
+ <footer id="footer" class="text-auto">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 footer-contact">
+        <img src="./images/mahesh logo.png" class="img-fluid py-2 gy-2 "  alt="" width="150px" height="75px">
+          <p> 2P9G+GV8/301<br>
+            Skyrah lake Towers  <br>
+            Bangalore - 560049<br>
+            Karnataka - India<br><br>
+            <strong class="strg"><i class="bx bx-phone-call"></i>Phone:</strong class="nade"> +91 8639449423<br>
+
+            </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Menu</h4>
+          <ul>
+            <li><i class="bx bx-home-smile"></i> <a href="./index.html">Home</a></li>
+            <li><i class="bx bx-chalkboard"></i> <a href="./about.html">About us</a></li>
+            <li><i class="bx bxs-server"></i> <a href="./services.html">Services</a></li>
+            <li><i class="bx bx-envelope" ></i> <a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bx bx-desktop"></i> <a href="#">Web Designing</a></li>
+            <li><i class="bx bx-slideshow"></i> <a href="#">Web Development</a></li>
+            <li><i class="bx bxs-magnet"></i> <a href="#">Product Management</a></li>
+            <li><i class="bx bx-money-withdraw"></i> <a href="#">Marketing Services</a></li>
+            <li><i class="bx bxl-graphql"></i> <a href="#">Graphic Design/ Templates</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Our Social Networks</h4>
+          <p>Connect/Follow Here</p>
+          <div class="social-links mt-3">
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="google"><i class="bx bxl-google"></i></a>
+            <a href="https://github.com/olewintechsolutions" class="github"><i class="bx bxl-github"></i></a>
+            <a href="https://www.instagram.com/bandaru_mahesh333/?igsh=MWY2bmZ3OW0zcDJmNQ%3D%3D&utm_source=qr" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="https://linkedin.com/in/bandarumahesh-1520bmh" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container footer-bottom clearfix">
+    <div class="copyright fs-6 text-dark">
+      &copy; Copyright <strong><span>OlewinTechSolutions</span></strong>  All Rights Reserved @ 2022-2024.
+    </div>
+
+  <!-- 
+    
+
+      Designed by <a style="color: #000; font-size: 14px;" href="https://olewintechsolutions.com/">OlewinTechSolutions</a>
+
+  
+
+  -->
+
+  <div class="credits"> 
+    <a href="./termspage.html" class="fs-6 text-light p-3">Terms & Conditions</a>
+        <a href="./privacy.html" class="fs-6 text-light p-3">Privacy</a>
+        <a href="policy.html" class="fs-6 text-light p-3">Policies</a>  
+
+  </div>
+  </div>
+</footer>
+<!-- End Footer -->
+
+<div id="preloader"></div>
+
+
+<a href="./index.html" class="back-to-top "><i class="bx bx-arrow-from-top" data-aos-delay="100"></i>Back to Top</a>
+
+
+    <!-- bootstrap-5 js-files-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+   
+  </body>
+</html>
+

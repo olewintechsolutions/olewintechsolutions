@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OlewinTechSolutions - Login</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="./index.html"
+              ><img
+                src="./images/mahesh logo.png"
+                alt="OlewinTechSolutions"
+                class="img-fluid"
+                width="150px"
+                height="75px"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About Us</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="./contact.html">Contact </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <br />
+        <br />
+        <hr />
+
+    <div class="container  mt-5 col-3  border border-secondary">
+      <h2 class="mb-4 text-center">Login</h2>
+      <form>
+        <div class="mb-3 " >
+          <label for="email" class="form-label">UserName/Email:</label>
+          <input
+            type="email"
+            class="form-control border-black"
+            id="email"
+            aria-describedby="emailHelp"
+            required
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <br>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password:</label>
+          <input type="password" class="form-control border-black" id="password" required />
+        </div>
+        <br>
+        <button type="submit" class="btn btn-success w-50 fw-bold rounded-pill m-3 fs-5 ">Login</button>
+      </form>
+    </div>
+
+<script src="./backend/login.js"></script>
+
+    <!-- Bootstrap JS and Popper.js (required for Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
