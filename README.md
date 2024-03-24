@@ -1,10 +1,9 @@
 - 👋 Hi,I am Bandaru Mahesh
-- From IIT Kharagpur - 2021.
-- Full stack Developer web/Mobile apps
+- From IIT Kharagpur - 2021
 - Founded  @olewintechsolutions 
-- 👀 I’m interested in  UI/UX designs, FrontEnd Development, Backend, AWS Cloud , Content Creator. 
-- 💞️ I’m looking for an Full time Job Role in Full Stack Engineer/Devloper.
-- 📫 How to reach me @ +91 8639449423
+- 👀 I’m interested Data Scientist, Big Data Engineer, Machine Learning, AI, Digital Project Manager, Full StackDevelopment for both Web & Mobile Application Development..
+- 💞 
+- 📫 How to reach me olewintechsolutions@gmail.com,  @ +91 8639449423.
 
 <!---
 olewintechsolutions/olewintechsolutions is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
