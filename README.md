@@ -48,12 +48,13 @@ Here are some ideas to get you started:
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=olewintechsolutions&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-### ✍️ Random Dev Quote
-#Leading with technology, innovating with purpose, and building a future where ideas ignite progress.
+### ✍️ My Quote
+# Knowledge is Power,Educate and empower.
+# Leading with technology, innovating with purpose, and building a future where ideas ignite progress.
+
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=olewintechsolutions&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
----
-[![](https://visitcount.itsvg.in/api?id=olewintechsolutions&icon=0&color=0)](https://visitcount.itsvg.in)
+
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
