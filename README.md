@@ -15,3 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 [![Bandaru Mahesh GitHub stats](https://github-readme-stats.vercel.app/api?username=olewintechsolutions)](https://github.com/olewintechsolutions/github-readme-stats)
+![Bandaru Mahesh GitHub stats](https://github-readme-stats.vercel.app/api?username=olewintechsolutions&show_icons=true)
