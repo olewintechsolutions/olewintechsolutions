@@ -49,8 +49,7 @@ Here are some ideas to get you started:
 ![](https://github-profile-trophy.vercel.app/?username=olewintechsolutions&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
+#Leading with technology, innovating with purpose, and building a future where ideas ignite progress.
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=olewintechsolutions&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
