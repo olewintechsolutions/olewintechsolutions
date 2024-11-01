@@ -1,20 +1,7 @@
 ### Hi there! 👋 I'm Bandaru Mahesh
-I'm a passionate & Tech entrepreneur with expertise in AI, machine learning, and web and mobile, Blockchain development. I hold a background in robotics from MIT and advanced studies in AI and ML from Stanford. As the Founder and CEO of Olewintechsolutions, I'm dedicated to building innovative software solutions that empower progress and drive technological evolution.
-
-👨‍💻 About Me
-Education: IIT Kharagpur
-Achievements: Scored 94.8% on the GRE.
-Founder/CEO: Olewintechsolutions, where we aim to lead the wave of technological evolution.
-Skills:Web/Mobile Blockchain, Saas, AI/ML robotics, Data scientist, Data analyst, Big Data Engineer, Multi-cloud Computing
+ IIT Kharagpur - 2021 
 
 
-###🌟 Current Projects:-
-
- ChatGPT/Gemini-Inspired UI: Crafting a responsive UI for visualizations for interactive AI-engineer for future experiences in Tech industry.
- Developing a Qunatum Application for Energy Sector & Oil industry.
-### 🚀 Future Goals
-Emulators & Simulators: Exploring mobile emulation software to test designs across devices.
-Cross-Platform Solutions: Focused on building adaptable software that works across mobile, web, and desktop environments
 <!--
 **olewintechsolutions/olewintechsolutions** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
