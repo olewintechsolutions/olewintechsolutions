@@ -10,8 +10,8 @@ Skills:Web/Mobile Blockchain, Saas, AI/ML robotics, Data scientist, Data analyst
 
 ###🌟 Current Projects:-
 
-# ChatGPT/Gemini-Inspired UI: Crafting a responsive UI with NLP and visualizations for interactive AI experiences.
-# Developing a Qunatum Application for Energy Sector & Oil industry.
+ ChatGPT/Gemini-Inspired UI: Crafting a responsive UI for visualizations for interactive AI-engineer for future experiences in Tech industry.
+ Developing a Qunatum Application for Energy Sector & Oil industry.
 ### 🚀 Future Goals
 Emulators & Simulators: Exploring mobile emulation software to test designs across devices.
 Cross-Platform Solutions: Focused on building adaptable software that works across mobile, web, and desktop environments
