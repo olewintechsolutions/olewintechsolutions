@@ -1,5 +1,8 @@
 ### Hi there! 👋 I'm Bandaru Mahesh
- IIT Kharagpur - 2021 
+ IIT Kharagpur
+ Founder/CEO 
+ Olewin Pvt Ltd -India
+ 
 
 
 <!--
