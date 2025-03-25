@@ -2,7 +2,7 @@
 
  # I'm Bandaru Mahesh
  ## IIT Kharagpur
- ### Founder/CEO  
+ ### Founder / CEO  
  #### Olewin Pvt Ltd - India
  #### Olewin LLC - USA
  
