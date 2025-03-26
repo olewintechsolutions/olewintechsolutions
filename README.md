@@ -3,18 +3,7 @@
  # I'm Bandaru Mahesh
  ## IIT Kharagpur
  ### Founder / CEO  
- #### Olewin Pvt Ltd - India
- #### Olewin LLC - USA
  
-## Our Products:- 
-#### Olewin
-#### Olewin AI
-#### OlewinTechSolutions
-#### Olewin Academy
-#### Olewin - X
-#### Olewin - Q
-#### Olewin AI Studio
-
 
 <!--
 **olewintechsolutions/olewintechsolutions** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
