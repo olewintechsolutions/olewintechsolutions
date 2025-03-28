@@ -1,8 +1,8 @@
 ### Hi There ....! 👋 
 
- # I'm Bandaru Mahesh
- ## IIT Kharagpur
- ### Founder / CEO  
+ ### I'm Bandaru Mahesh
+ ### IIT Kharagpur
+ #### Founder / CEO  
  
 
 <!--
